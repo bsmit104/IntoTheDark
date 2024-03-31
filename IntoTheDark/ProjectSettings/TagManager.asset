@@ -45,3 +45,6 @@ TagManager:
   - name: obstacle
     uniqueID: 2777428553
     locked: 0
+  - name: Finish
+    uniqueID: 3294326021
+    locked: 0

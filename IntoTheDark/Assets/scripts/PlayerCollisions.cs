@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerCollisions : MonoBehaviour
 {
@@ -25,9 +26,12 @@ public class PlayerCollisions : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("obstacle"))
         {
-            // Handle player colliding with an enemy
-            Debug.Log("Player has collided with the enemy!");
             transform.position = lastcheckpoint;
+        }
+
+        if (collision.gameObject.CompareTag("Finish"))
+        {
+            SceneManager.LoadScene("end");
         }
     }
 

@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      poke5_0: -1136322326163870848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
