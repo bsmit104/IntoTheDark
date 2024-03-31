@@ -12,7 +12,7 @@ public class EnemyMovement : MonoBehaviour
     int pointCount;
     int direction = 1;
 
-    private void awake() {
+    private void Awake() {
         waypoints = new Transform[ways.transform.childCount];
         for (int i = 0; i < ways.gameObject.transform.childCount; i ++) {
             waypoints[i] = ways.transform.GetChild(i).gameObject.transform;
